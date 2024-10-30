@@ -1,0 +1,22 @@
+# 忽略虚拟环境文件夹
+env/
+
+# 忽略配置文件包含敏感信息
+utils/config.json
+
+# 忽略 __pycache__ 文件夹
+__pycache__/
+utils/__pycache__/
+
+# 忽略日志文件
+logs/
+
+# 忽略 .DS_Store 文件（macOS 系统）
+.DS_Store
+
+# 忽略 Python 中的临时文件
+*.pyc
+*.pyo
+
+utils/drug_details.json
+utils/meds_links.json
